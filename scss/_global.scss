@@ -1,0 +1,56 @@
+// 1rem == 16px;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: $header-font;
+  font-weight: 300;
+  background: $base;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $header-font;
+
+  font-weight: bold;
+}
+
+.xl {
+  font-size: 8rem;
+}
+
+.border-bottom {
+  border-bottom: 3px solid $primary;
+  width: 50%;
+  display: block;
+}
+
+.btn {
+  margin-top: 3rem;
+  border: 1px solid $primary;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: $primary;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    background: #fff;
+    color: $support;
+  }
+}
+
+img {
+  width: 100%;
+}
+
+.py-5 {
+  padding: 5rem 0;
+}
