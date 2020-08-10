@@ -3,7 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>
+      aework | Arbab Engineering Works | Pulverizer manufacture lucknow
+    </title>
+    <meta
+      name="keywords"
+      content="pulverizer, daliya machine, machine repairing, mixers"
+    />
+    <meta
+      name="description"
+      content="we manufacture industrial machines and repair them at most reasonable prices"
+    />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
@@ -12,6 +22,7 @@
     />
     <link rel="stylesheet" href="./css/style.min.css" />
   </head>
+
   <body>
     <div class="nav-container">
       <nav class="navbar">
@@ -24,22 +35,23 @@
           <span class="bar"></span>
         </div>
         <ul class="nav-menu">
-          <li><a href="/" class="nav-links">Home</a></li>
-          <li><a href="/about.html" class="nav-links">About Us</a></li>
-          <li><a href="/products.html" class="nav-links">Our Products</a></li>
-          <li><a href="/contact.html" class="nav-links">Contact Us</a></li>
+          <li><a href="#home" class="nav-links">Home</a></li>
+          <li><a href="#about" class="nav-links">About Us</a></li>
+          <li><a href="#product" class="nav-links">Our Products</a></li>
+          <li><a href="#contact" class="nav-links">Contact Us</a></li>
         </ul>
       </nav>
     </div>
-    <div class="banner">
+    <div class="banner" id="home">
       <div class="text">
         <h1 class="xl">Arbab Engineering Works</h1>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, iste.
+          we manufacture industrial machines and repair them at reasonable
+          prices
         </p>
       </div>
     </div>
-    <section class="about">
+    <section class="about" id="about">
       <div class="container">
         <div class="row">
           <div class="col-6">
@@ -93,7 +105,7 @@
       </div>
     </section>
 
-    <section class="our-product">
+    <section class="our-product" id="product">
       <div class="container">
         <div class="row py-5">
           <div class="col-12">
@@ -142,6 +154,65 @@
               to the cyclone separator, where product can be collected.
             </p>
             <a class="btn">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h3>Contact Us</h3>
+          </div>
+          <div class="col-6">
+            <div id="rep"></div>
+            <form action="" method="POST">
+              <div class="form-group">
+                <label for="">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  class="form-control"
+                  placeholder=""
+                  aria-describedby="helpId"
+                />
+              </div>
+              <div class="form-group">
+                <label for="">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  class="form-control"
+                  placeholder=""
+                  aria-describedby="helpId"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="">Number</label>
+                <input
+                  type="text"
+                  id="number"
+                  class="form-control"
+                  placeholder=""
+                  aria-describedby="helpId"
+                />
+              </div>
+              <div class="form-group">
+                <label for="">Message</label>
+                <textarea id="message" cols="30" rows="10"></textarea>
+              </div>
+              <div class="form-group">
+                <input
+                  type="submit"
+                  id="query"
+                  value="send"
+                  class="btn btn-primary"
+                />
+              </div>
+            </form>
           </div>
         </div>
       </div>

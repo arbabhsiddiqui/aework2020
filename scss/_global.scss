@@ -5,6 +5,10 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: $header-font;
   font-weight: 300;
@@ -53,4 +57,23 @@ img {
 
 .py-5 {
   padding: 5rem 0;
+}
+
+.btn-primary {
+  margin-top: 3rem;
+  border: 1px solid $primary;
+  padding: 1rem 1.5rem !important;
+  border-radius: 5px;
+  background: $primary;
+  color: #fff;
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    background: #fff;
+    color: $support;
+  }
 }
